@@ -1,0 +1,29 @@
+{
+  "name": "nrb/laravel-address",
+  "description": "Laravel address for contacts, companies, maps, etc.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Burhan Ibrahimi",
+      "email": "mail@buib.me",
+      "homepage": "https://www.buib.me",
+      "role": "creator"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "league/iso3166": "^2.1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "NRB\\Address\\": ""
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NRB\\Address\\AddressProvider"
+      ]
+    }
+  }
+}
